@@ -6,7 +6,9 @@
 	"version": "1.0.0",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
-		"@freecodecamp/example": "~1.2.13",
+		"//" : "El simbolo ~(tilde) se usa para actualizar a la ultima version de los PATCH." ,
+		"//":"El Simbolo ^(caret) para actualizar a la ultima version MiNORs",
+		"@freecodecamp/example": "^1.2.13",
 		"express": "^4.14.0"
 	},
 	"main": "server.js",
